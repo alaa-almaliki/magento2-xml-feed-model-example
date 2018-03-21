@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="order_export" translate="label" sortOrder="200">
+            <label>Order Export</label>
+        </tab>
+        <section id="order_export" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Order Export</label>
+            <tab>order_export</tab>
+            <resource>Alaa_OrderFeedExample::settings</resource>
+            <group id="settings" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Custom Attributes</label>
+                <group id="order" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Order Attributes</label>
+                    <field id="custom_attributes" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
+                        <label>Order Attributes</label>
+                        <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                        <frontend_model>Alaa\XmlFeedModel\Block\Adminhtml\System\Config\Form\Field\FieldArray\SubjectFieldArray</frontend_model>
+                    </field>
+                </group>
+                <group id="customer" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Customer Attributes</label>
+                    <field id="custom_attributes" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
+                        <label>Customer Attributes</label>
+                        <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                        <frontend_model>Alaa\XmlFeedModel\Block\Adminhtml\System\Config\Form\Field\FieldArray\SubjectFieldArray</frontend_model>
+                    </field>
+                </group>
+                <group id="order_line" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Order Line Attributes</label>
+                    <field id="custom_attributes" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
+                        <label>Order Line Attributes</label>
+                        <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                        <frontend_model>Alaa\XmlFeedModel\Block\Adminhtml\System\Config\Form\Field\FieldArray\SubjectFieldArray</frontend_model>
+                    </field>
+                </group>
+                <group id="payment" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Payment Attributes</label>
+                    <field id="custom_attributes" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
+                        <label>Order Line Attributes</label>
+                        <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                        <frontend_model>Alaa\XmlFeedModel\Block\Adminhtml\System\Config\Form\Field\FieldArray\SubjectFieldArray</frontend_model>
+                    </field>
+                </group>
+            </group>
+        </section>
+    </system>
+</config>

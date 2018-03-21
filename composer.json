@@ -1,0 +1,24 @@
+{
+  "name": "alaa/magento2-xml-feed-feed-example",
+  "description": "Magento2 xml feed model example",
+  "type": "magento2-module",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "require": {
+    "alaa/magento2-xml-feed-model-example": "dev-develop"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Alaa\\OrderFeedExample\\": ""
+    }
+  }
+}
