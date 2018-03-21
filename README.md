@@ -1,1 +1,1 @@
-# Magento2 Order Feed Example
+# Magento2 Xml Feed Model Example
