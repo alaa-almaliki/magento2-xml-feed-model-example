@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "alaa/magento2-xml-feed-model-example": "dev-develop"
+    "alaa/magento2-xml-feed-model": "dev-develop"
   },
   "autoload": {
     "files": [
