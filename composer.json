@@ -12,6 +12,12 @@
   "require": {
     "alaa/magento2-xml-feed-model": "dev-develop"
   },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "git@github.com:alaa-almaliki/magento2-xml-feed-model.git"
+      }
+  ],
   "autoload": {
     "files": [
       "registration.php"
