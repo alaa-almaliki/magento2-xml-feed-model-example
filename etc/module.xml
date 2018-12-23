@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Alaa_OrderFeedExample" setup_version="0.0.1">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Alaa_XmlFeedModelExample" setup_version="1.0.0" >
         <sequence>
             <module name="Alaa_XmlFeedModel" />
         </sequence>
